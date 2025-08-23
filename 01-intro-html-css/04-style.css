@@ -1,0 +1,12 @@
+.boton::before {
+    content: "🔥"
+}
+
+.boton::after {
+    content: "✅"
+}
+
+::selection {
+    background-color: yellow;
+    color: red;
+}

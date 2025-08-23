@@ -1,0 +1,22 @@
+:root {
+    --color-primario: #FC9C9C;
+    --color-secundario: #FF5733;
+    --tamaño-texto: 18px;
+    --espaciado: 10px;
+}
+
+body {
+    background-color: var(--color-primario);
+    font-size: var(--tamaño-texto);
+}
+
+p {
+    color: var(--color-secundario, #FF0000);
+    padding: var(--espaciado);
+}
+
+.caja {
+    background-color: white;
+    padding: var(--espaciado);
+    border: 2px solid var(--color-secundario)
+}

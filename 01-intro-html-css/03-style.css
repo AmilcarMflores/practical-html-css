@@ -1,0 +1,16 @@
+li {
+    display: block;
+    padding: 16px;
+}
+
+li:nth-child(3n-1) {
+    background: skyblue;
+    color: white;
+    font-weight: bold;
+}
+
+li:nth-child(3n) {
+    background: deepskyblue;
+    color: white;
+    font-weight: bolder;
+}
